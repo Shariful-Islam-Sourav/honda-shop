@@ -1,0 +1,26 @@
+/* -----------------------------------Custom CSS Here----------------------------------- */
+
+/* Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* ------Custom Styles------- */
+* {
+  font-family: "Poppins", sans-serif;
+}
+header,
+.honda-hero {
+  background-color: #264653;
+}
+.honda-gray-bike img {
+  filter: grayscale(100%);
+}
+.honda-red-text {
+  color: #e76f51;
+}
+.honda-button {
+  background-color: #e76f51;
+}
+.honda-button:hover {
+    border: 1px solid #e76f51;
+    background-color: rgba(0, 0, 0, 0);
+}
