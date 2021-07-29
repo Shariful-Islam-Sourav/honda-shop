@@ -14,13 +14,18 @@ header,
 .honda-gray-bike img {
   filter: grayscale(100%);
 }
-.honda-red-text {
+.honda-red-text,
+.honda-icons-orange {
   color: #e76f51;
+}
+.honda-button {
+  color: white;
 }
 .honda-button {
   background-color: #e76f51;
 }
-.honda-button:hover {
-    border: 1px solid #e76f51;
-    background-color: rgba(0, 0, 0, 0);
+.honda-button:hover{
+  color: #e76f51;
+  border: 1px solid #e76f51;
+  background-color: rgba(0, 0, 0, 0);
 }
