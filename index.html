@@ -31,13 +31,13 @@
               <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Shop</a>
+              <a class="nav-link text-white" href="#shop">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">News</a>
+              <a class="nav-link text-white" href="#news">News</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Contact</a>
+              <a class="nav-link text-white" href="#reputation">Reputation</a>
             </li>
             <li>
               <a class="btn px-4 ms-lg-5 text-white honda-button" href="#">Login</a>
@@ -62,7 +62,7 @@
             smooth and friendly torque delivery. The affordable <br />cost and
             responsive handling makes it a terrific bike.
           </p>
-          <button type="button" class="btn px-5 mb-3 text-white honda-button" data-bs-toggle="modal"
+          <button type="button" class="btn px-4 mb-3 text-white honda-button" data-bs-toggle="modal"
             data-bs-target="#exampleModal">Purchase</button>
           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
@@ -123,7 +123,7 @@
       </div>
     </section>
     <!-- --------------------------Latest News section-------------------------------- -->
-    <section class="container my-5">
+    <section id="news" class="container my-5">
       <h2 class="text-center">Latest <span class="honda-orange-text">News</span></h2>
       <div class="row row-cols-1 row-cols-md-3 g-3">
         <div class="col-12 col-md-6 col-lg-4">
@@ -164,12 +164,12 @@
     <!-- --------------------------Client section-------------------------------- -->
     <section class="container my-5">
       <h2 class="text-center mb-5">Happy <span class="honda-orange-text">Cleint Says</span></h2>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col">
           <div class="card h-100 rounded-3 border-1">
             <img src="images/user-1.png " width="150px" class="rounded mx-auto d-block p-3" alt="...">
             <div class="card-body text-center m-3">
-              <p class="card-text">Slate helps you see how
+              <p class="card-text text-secondary">Slate helps you see how
                 many more days you need
                 to work to reach your financial
                 goal for the month and year.</p>
@@ -180,8 +180,8 @@
                 <i class="fas fa-star"></i>
                 <i class="far fa-star"></i>
               </div>
-              <p class="fs-6">Phoenix Miles</h6>
-              <p>Software Engineer</p>
+              <p class="fs-6 honda-text-blue">Phoenix Miles</h6>
+              <p class="fw-bold">Software Engineer</p>
             </div>
           </div>
         </div>
@@ -189,7 +189,7 @@
           <div class="card h-100 border-1 rounded-3">
             <img src="images/user-2.png " width="150px" class="rounded mx-auto d-block p-3" alt="...">
             <div class="card-body text-center m-3">
-              <p class="card-text">Slate helps you see how
+              <p class="card-text text-secondary">Slate helps you see how
                 many more days you need
                 to work to reach your financial
                 goal for the month and year.</p>
@@ -200,8 +200,8 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
               </div>
-              <p class="fs-6">Jett Doe</h6>
-              <p>Banker</p>
+              <p class="fs-6 honda-text-blue">Jett Doe</h6>
+              <p class="fw-bold">Banker</p>
             </div>
           </div>
         </div>
@@ -209,7 +209,7 @@
           <div class="card h-100 border-1 rounded-3">
             <img src="images/user-3.png " width="150px" class="rounded mx-auto d-block p-3" alt="...">
             <div class="card-body text-center m-3">
-              <p class="card-text">Slate helps you see how
+              <p class="card-text text-secondary">Slate helps you see how
                 many more days you need
                 to work to reach your financial
                 goal for the month and year.</p>
@@ -220,8 +220,8 @@
                 <i class="fas fa-star"></i>
                 <i class="far fa-star"></i>
               </div>
-              <p class="fs-6">Reyna kile</h6>
-              <p>Bussinessman</p>
+              <p class="fs-6 honda-text-blue">Reyna kile</h6>
+              <p class="fw-bold">Bussinessman</p>
             </div>
           </div>
         </div>
@@ -231,7 +231,7 @@
     <section class="my-5 container">
       <h2 class="text-center mb-5">Frequently <span class="honda-orange-text">Asked Questions</span></h2>
       <div class="row">
-        <div class="col-12 col-md-6 mx-auto">
+        <div class="col-12 col-md-6 mb-3 mx-auto">
           <img class="img-fluid" src="images/faq.png" width="430px" alt="faq-img">
         </div>
         <div class="col-12 col-lg-6">
@@ -246,10 +246,10 @@
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the
+                <div class="accordion-body fw-light text-secondary">
+                  You need to Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the
                   mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and
-                  legally compliant bike rider.
+                  legally compliant bike rider. Look, think and then ride!
                 </div>
               </div>
             </div>
@@ -263,12 +263,10 @@
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <div class="accordion-body fw-light text-secondary">
+                  Check in with your head. “Typically, you know if the helmet took a good hit, because a good hit to the
+                  helmet is a good hit to the head,” Parks says. “Just even the sound of the impact or the way your head
+                  felt—like if you hit hard enough to see stars—can tell you if the helmet should be replaced.”
                 </div>
               </div>
             </div>
@@ -281,12 +279,10 @@
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <div class="accordion-body fw-light text-secondary">
+                  Motorcyclists account for 14% of all crash-related fatalities, even though they are only 3% of the
+                  vehicles on the road. Motorcyclists are 28 times more likely than passenger-vehicle occupants to die
+                  in a car crash. More than 80% of these type of crashes result in an injury or death.
                 </div>
               </div>
             </div>
@@ -299,12 +295,11 @@
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                 data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <div class="accordion-body fw-light text-secondary">
+                  Motorcycle crashes involving another motor vehicle continue to account for nearly half of all
+                  motorcyclist fatalities in the United States. Before you turn left, remember to look for oncoming
+                  traffic, especially motorcycles. Vehicle accidents involving the collision of a left-turning
+                  automobile and an oncoming motorcycle can be severe.
                 </div>
               </div>
             </div>
@@ -313,83 +308,94 @@
       </div>
     </section>
     <!-- ----------------------------------Bike Product Section--------------------------------- -->
-    <section class="container my-5">
+    <section id="shop" class="container my-5">
       <h2 class="text-center mb-3">Our <span class="honda-orange-text">Bikes</span></h2>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col">
           <div class="card h-100 shadow border-0 rounded-3">
-              <img src="images/product-1.jpg" class="card-img-top p-3" alt="...">
+            <img src="images/product-1.jpg" class="card-img-top p-3" alt="...">
             <div class="card-body">
               <h5 class="card-title">Ducati XDIAVEL S-73</h5>
               <p class="card-text">The new sports version, the Black Star, and the matt black total look version.</p>
               <div class="d-flex align-items-center justify-content-between">
                 <h3>$2400</h3>
-                <button type="button" class="btn p-2 honda-button"><i class="fas fa-shopping-cart"></i> Add To Cart</button>
+                <button type="button" class="btn p-2 honda-button"><i class="fas fa-shopping-cart"></i> Add To
+                  Cart</button>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100 shadow border-0 rounded-3">
-              <img src="images/product-2.jpg" class="card-img-top p-3" alt="...">
+            <img src="images/product-2.jpg" class="card-img-top p-3" alt="...">
             <div class="card-body">
               <h5 class="card-title">Kawasaki Ninja 300</h5>
-              <p class="card-text text-secondary">The Kawasaki Ninja H2R has been in the headlines for being one of a kind sports.</p>
+              <p class="card-text text-secondary">The Kawasaki Ninja H2R has been in the headlines for being one of a
+                kind sports.</p>
               <div class="d-flex align-items-center justify-content-between">
                 <h3>$3400</h3>
-                <button type="button" class="btn p-2 honda-button"><i class="fas fa-shopping-cart"></i> Add To Cart</button>
+                <button type="button" class="btn p-2 honda-button"><i class="fas fa-shopping-cart"></i> Add To
+                  Cart</button>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100 shadow border-0 rounded-3">
-              <img src="images/product-3.jpg" class="card-img-top p-3" alt="...">
+            <img src="images/product-3.jpg" class="card-img-top p-3" alt="...">
             <div class="card-body">
               <h5 class="card-title">KTM RC 390</h5>
-              <p class="card-text text-secondary">The whole KTM RC series has received price revision, the RC 390 receiving.</p>
+              <p class="card-text text-secondary">The whole KTM RC series has received price revision, the RC 390
+                receiving.</p>
               <div class="d-flex align-items-center justify-content-between">
                 <h3>$3980</h3>
-                <button type="button" class="btn p-2 honda-button"><i class="fas fa-shopping-cart"></i> Add To Cart</button>
+                <button type="button" class="btn p-2 honda-button"><i class="fas fa-shopping-cart"></i> Add To
+                  Cart</button>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100 shadow border-0 rounded-3">
-              <img src="images/product-4.jpg" class="card-img-top p-3" alt="...">
+            <img src="images/product-4.jpg" class="card-img-top p-3" alt="...">
             <div class="card-body">
               <h5 class="card-title">Honda Black 500R</h5>
-              <p class="card-text text-secondary">The new sports version, the Black Star, and the matt black total look version.</p>
+              <p class="card-text text-secondary">The new sports version, the Black Star, and the matt black total look
+                version.</p>
               <div class="d-flex align-items-center justify-content-between">
                 <h3>$4400</h3>
-                <button type="button" class="btn p-2 honda-button"><i class="fas fa-shopping-cart"></i> Add To Cart</button>
+                <button type="button" class="btn p-2 honda-button"><i class="fas fa-shopping-cart"></i> Add To
+                  Cart</button>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100 shadow border-0 rounded-3">
-              <img src="images/product-5.jpg" class="card-img-top p-3" alt="...">
+            <img src="images/product-5.jpg" class="card-img-top p-3" alt="...">
             <div class="card-body">
               <h5 class="card-title">KTM Duke-100</h5>
-              <p class="card-text text-secondary">The KTM RC 200 has received substantial changes in terms of functionality design.</p>
+              <p class="card-text text-secondary">The KTM RC 200 has received substantial changes in terms of
+                functionality design.</p>
               <div class="d-flex align-items-center justify-content-between">
                 <h3>$3990</h3>
-                <button type="button" class="btn p-2 honda-button"><i class="fas fa-shopping-cart"></i> Add To Cart</button>
+                <button type="button" class="btn p-2 honda-button"><i class="fas fa-shopping-cart"></i> Add To
+                  Cart</button>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100 shadow border-0 rounded-3">
-              <img src="images/product-6.jpg" class="card-img-top p-3" alt="...">
+            <img src="images/product-6.jpg" class="card-img-top p-3" alt="...">
             <div class="card-body">
               <h5 class="card-title">Honda XDIAVEL R100</h5>
-              <p class="card-text text-secondary">For the year 2021. The motorcycle will be given a sleek makeover, as well as tidy.</p>
+              <p class="card-text text-secondary">For the year 2021. The motorcycle will be given a sleek makeover, as
+                well as tidy.</p>
               <div class="d-flex align-items-center justify-content-between">
                 <h3>$2300</h3>
-                <button type="button" class="btn p-2 honda-button"><i class="fas fa-shopping-cart"></i> Add To Cart</button>
+                <button type="button" class="btn p-2 honda-button"><i class="fas fa-shopping-cart"></i> Add To
+                  Cart</button>
               </div>
             </div>
           </div>
@@ -397,30 +403,37 @@
       </div>
     </section>
     <!-- ------------------------------- Reputation Section ----------------------------------- -->
-    <section class="my-5 py-5">
+    <section id="reputation" class="my-5 py-5">
       <h2 class="text-center mb-5">Company <span class="honda-orange-text">Reputation</span></h2>
       <div class="container">
         <div class="row g-4">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-lg-6">
             <img class="img-fluid" src="images/buying-a-motorcycle.jpg" alt="430px">
           </div>
-          <div class="col-12 col-md-6">
-              <p class="mb-1">Positive Response</p>
-              <div class="progress mb-3">
-                <div class="progress-bar bg-secondary" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
-              </div>
-              <p class="mb-1">Product After Service</p>
-              <div class="progress mb-3">
-                <div class="progress-bar bg-secondary" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">95%</div>
-              </div>
-              <p class="mb-1">Customer Satisfaction</p>
-              <div class="progress mb-3">
-                <div class="progress-bar bg-secondary" role="progressbar" style="width: 99%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">99%</div>
-              </div>
-              <p class="mb-1">Suggested</p>
-              <div class="progress">
-                <div class="progress-bar bg-secondary" role="progressbar" style="width: 89%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">89%</div>
-              </div>
+          <div class="col-12 col-lg-6">
+            <h3 class="mt-3">Our Valuable Customer Feedbacks</h3>
+            <p class="pb-3">As we are running our business and service from last 30 years. We have taken surveys from
+              our beloved customers and earned a great reputation.</p>
+            <p class="mb-1">Positive Response</p>
+            <div class="progress mb-3">
+              <div class="progress-bar honda-progress" role="progressbar" style="width: 90%" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div>
+            <p class="mb-1">Product After Service</p>
+            <div class="progress mb-3">
+              <div class="progress-bar honda-progress" role="progressbar" style="width: 95%" aria-valuenow="50"
+                aria-valuemin="0" aria-valuemax="100">95%</div>
+            </div>
+            <p class="mb-1">Customer Satisfaction</p>
+            <div class="progress mb-3">
+              <div class="progress-bar honda-progress" role="progressbar" style="width: 99%" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">99%</div>
+            </div>
+            <p class="mb-1">Suggested</p>
+            <div class="progress">
+              <div class="progress-bar honda-progress" role="progressbar" style="width: 89%" aria-valuenow="100"
+                aria-valuemin="0" aria-valuemax="100">89%</div>
+            </div>
           </div>
         </div>
       </div>
@@ -451,3 +464,15 @@
 </body>
 
 </html>
+
+
+<!-- ----------------------------------------END---------------------------------------- -->
+
+
+
+<!--  
+    Author: Shariful Islam Sourav
+    Date: 29 July 2021
+    Used: HTML-CSS-Bootstrap
+    Github: https://github.com/Shariful-Islam-Sourav
+-->

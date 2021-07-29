@@ -21,14 +21,21 @@ header,
 .honda-icons-orange {
   color: #e76f51;
 }
+.honda-text-blue {
+  color: #23a6f0;
+}
 .honda-button {
   color: white;
 }
-.honda-button {
+.honda-button,
+.honda-progress {
   background-color: #e76f51;
 }
-.honda-button:hover{
+.honda-button:hover {
   color: #e76f51;
   border: 1px solid #e76f51;
   background-color: rgba(0, 0, 0, 0);
 }
+
+
+/* -----------------------------------------END-------------------------------- */
